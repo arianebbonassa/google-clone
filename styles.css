@@ -93,7 +93,8 @@ body {
     margin-top: 10vh;
     display: flex;
     padding: 15px;
-    width: 584px;
+    width: 100%;
+    max-width: 584px;
     height: 48px;
     border-radius: 24px;
     border: 1px solid #dfe1e5;
@@ -175,6 +176,7 @@ body {
     gap: 10px;
     width: 100%;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -182,6 +184,7 @@ body {
 .links-da-direita {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 
 }
 
